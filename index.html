@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    
+    <link rel="stylesheet" href="Carousel.css" type="text/css">
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <title>Homepage</title>
+  </head>
+  <body>
+
+    <div id="myCarousel" class="carousel slide"
+     data-bs-ride="carousel" data-bs-interval="false">
+        <header-component></header-component>
+
+        <ol class="carousel-indicators">
+            <li data-bs-target="#myCarousel"
+             data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#myCarousel"
+             data-bs-slide-to="1"></li>
+            <li data-bs-target="#myCarousel"
+            data-bs-slide-to="2"></li>
+            <li data-bs-target="#myCarousel"
+            data-bs-slide-to="3"></li>
+            <li data-bs-target="#myCarousel"
+            data-bs-slide-to="4"></li>
+            <li data-bs-target="#myCarousel"
+            data-bs-slide-to="5"></li>
+            <li data-bs-target="#myCarousel"
+            data-bs-slide-to="6"></li>
+        </ol>
+        <div class="carousel-inner image-div">
+             <div class="carousel-item active">
+                <div class="overlay-image">
+                    <div class="flourish-embed flourish-scatter"
+                     data-src="visualisation/8328227" data-height="100%">
+                     <script src="https://public.flourish.studio/resources/embed.js"></script>
+                     </div>
+                </div>
+                    <div class="container">
+                        <h1>Scatterplot: energy & danceability</h1>
+                        <p>
+                            This scatterplot compares the two audiofeatures "energy" and "dancability".
+                            Each dot represents an individual song.
+                            Between these audiofeatures there seems to be some positive correlation
+                            between both measurements in the case of Eurovision songs
+                        </p>
+                    </div>
+    
+                </div>
+            <div class="carousel-item">
+            <div class="overlay-image">
+                <div class="flourish-embed flourish-radar"
+                 data-src="visualisation/8328543">
+                 <script src="https://public.flourish.studio/resources/embed.js"></script>
+                </div>
+            </div>
+                <div class="container">
+                    <h1>Radar chart: Eurovision winners 2010-2021</h1>
+                    <p>
+                        This radar chart shows the audiofeatures from the 11 winning songs from Eurovision since 2010.
+                        Noticeable in this chart it confirms the importance of the energy and loudness as seen in previous charts.
+                        There are some notable exceptions however, with Arcade and Amar Pelos Dois being distinctly more acoustic.
+                        Valence scores also differ between songs quite a bit. Also reflective of earlier findings. 
+                        The image is scrollable!
+                    </p>
+                </div>
+
+            </div>
+            <div class="carousel-item">
+            <div class="overlay-image">
+                <div class="flourish-embed flourish-chart" 
+                data-src="visualisation/8341886" data-height="100%">
+                <script src="https://public.flourish.studio/resources/embed.js"></script>
+                </div>
+            </div>
+                <div class="container">
+                    <h1>Line chart: audiofeatures</h1>
+                    <p>
+                        This line chart compares the average audiofeatures of Eurovision songs for every year.
+                        What is remarkable is that this chart shows that levels of the average audiofeatures per year stay quite consistent. 
+                    </p>
+                </div>
+
+            </div>
+            <div class="carousel-item">
+                <div class="overlay-image">
+                    <div class="flourish-embed flourish-chart" 
+                    data-src="visualisation/8341886" data-height="100%">
+                    <script src="https://public.flourish.studio/resources/embed.js"></script>
+                    </div>
+                </div>
+                <div class="container">
+                    <h1>Headline</h1>
+                    <p>
+                        hdyfbshufibdhjas
+                    </p>
+                </div>
+
+            </div>
+            <div class="carousel-item">
+                <div class="overlay-image">
+                    <div class="flourish-embed flourish-radar"
+                    data-src="visualisation/8540031">
+                     <script src="https://public.flourish.studio/resources/embed.js"></script>
+                    </div>
+                </div>
+                <div class="container">
+                    <h1>Radar chart: most popular songs</h1>
+                    <p>
+                        This radar chart shows the audiofeatures from the current most popular Eurovision songs from the last twelve years.
+                        Noticeable is an apparent bias for more recent songs as songs from 2020 and 2021 dominate the chart.
+                        These songs even more confirm the trends in Eurovision songs we described. 
+                        The image is scrollable!
+                    </p>
+                </div>
+
+            </div>
+            <div class="carousel-item">
+                <div class="overlay-image">
+                    <div class="flourish-embed flourish-chart" 
+                    data-src="visualisation/8342221" data-height="100%">
+                    <script src="https://public.flourish.studio/resources/embed.js"></script>
+                    </div>
+                </div>
+                <div class="container">
+                    <h1>Column chart: audiofeatures</h1>
+                    <p>
+                        This column chart compares the average audiofeatures of Eurovision songs for every year.
+                        What is noticeable is that often loudness and energy score very high year on year.
+                        Eurovision seems to also favor less acoustic songs. 
+                        Also it is remarkable that the positivity score "valence" is around 50%
+                        meaning that songs are on average almost as positive as they are negative. 
+
+                    </p>
+
+                </div>
+
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <h1>Headline</h1>
+                    <p>
+                        hdyfbshufibdhjas
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+        <a href="#myCarousel"
+         class="carousel-control-prev" role="button"
+         data-bs-slide="prev">
+            <span class="sr-only"></span>
+            <span class="carousel-control-prev-icon"
+             aria-hidden="true"></span>
+        </a>
+        <a href="#myCarousel"
+        class="carousel-control-next" role="button"
+        data-bs-slide="next">
+           <span class="sr-only"></span>
+           <span class="carousel-control-next-icon"
+            aria-hidden="true"></span>
+       </a>
+
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

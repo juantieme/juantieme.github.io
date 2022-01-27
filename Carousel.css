@@ -1,0 +1,60 @@
+html, body {overflow-y: hidden;} /* explicitly set html & body height */
+
+
+.carousel-item {
+    height: 91.5vh;
+    background: #777;
+    color: white;
+    position: relative;
+}
+.container{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 80%;
+    height: 25%;
+    border: solid 1px rgb(255, 255, 0);
+    padding-bottom: 50px;
+}
+
+.overlay-image {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+    height: 75%;
+    border: solid 1px rgb(255, 0, 0);
+} 
+.flourish-radar{
+    overflow: scroll;
+    height: 100%;
+}
+
+.flourish-credit{
+    display: none;
+}
+
+/*.image-div{
+    position: absolute;
+    padding-bottom: 25%;
+
+}
+
+.flourish-credit{
+    position: absolute;
+    padding-bottom: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flourish-embed{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50%;
+    max-width: 50%;
+    height: 100%;
+    border: solid 1px rgb(255, 0, 0);
+    background-position: center;
+    left: 0;
+    right: 0;
+
+}
