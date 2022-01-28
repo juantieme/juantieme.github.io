@@ -74,14 +74,14 @@ class Header extends HTMLElement {
   <div class="container-fluid">
   <div class="navv container-fluid">
   <a class="navbar-brand" href="index.html">
-    <img src="media/ESC_generic_logo/PNG/Eurovision_generic_white.png" alt=""  class="logo d-inline-block align-text-top">
+    <img src="/media/ESC_generic_logo/PNG/Eurovision_generic_white.png" alt=""  class="logo d-inline-block align-text-top">
   </a>
   
 </div>
 
     <div class=" navbar-collapse">
       <ul class="navbar-nav">
-      <li class="nav-item"><a class="nav-link hidden_home" href="eurovision.html">Home</a>
+      <li class="nav-item"><a class="nav-link hidden_home" href="index.html">Home</a>
       </li>
       <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
