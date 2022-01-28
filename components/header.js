@@ -72,9 +72,9 @@ class Header extends HTMLElement {
 
         <nav class="navbar sticky-top navbar-expand">
   <div class="container-fluid">
-  <div class="navv container-fluid">
-  <a class="navbar-brand" href="index.html">
-    <img src="media/ESC_generic_logo/PNG/Eurovision_generic_white.png" alt=""  class="logo d-inline-block align-text-top">
+  <div class="nav-item navv container-fluid">
+  <a class="nav-link " href="index.html">
+   HOME
   </a>
   
 </div>
