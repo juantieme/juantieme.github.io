@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style/team.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script type="text/javascript" src="/src/team.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header-component></header-component>
+    <div class="main-section">
+      <div class="container">
+        <div class="title">
+          <h1 class="title_heading">Meet Our Team</h1>
+          <p class="title_par">and explore our favorite Eurovision(<s><small>except for Raya's playlist, she knows just one Eurovision song</small></s>) songs!</p>
+        </div>
+        <div class="team-wrapper">
+          <div class="person">
+            <img
+              src="https://avataaars.io/?avatarStyle=Transparent&topType=LongHairStraight2&accessoriesType=Blank&hairColor=SilverGray&facialHairType=Blank&clotheType=Hoodie&clotheColor=Black&eyeType=Squint&eyebrowType=AngryNatural&mouthType=Twinkle&skinColor=Pale"
+            />
+            <div class="description">
+              <h3>Lena Ermolaeva</h3>
+
+              <a href="https://github.com/StellarPumpkin" target="_blank"
+                ><i class="fa fa-github" style="font-size:36px"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/elena-ermolaeva-7b75b816a/"
+                target="_blank"
+                ><i class="fa fa-linkedin-square" style="font-size:36px"></i
+              ></a>
+              <button onclick="showHide('lena_playlist')" class="play">
+                <i class="fa fa-spotify" style="font-size:36px"></i>
+              </button>
+              <iframe
+                id="lena_playlist"
+                src="https://open.spotify.com/embed/playlist/0dupIMiUWEwZib4ySK9vAT?utm_source=generator&theme=0"
+                width="100%"
+                height="400"
+                frameBorder="0"
+                allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              ></iframe>
+            </div>
+          </div>
+          <div class="person">
+            <img
+              src="https://avataaars.io/?avatarStyle=Transparent&topType=LongHairCurvy&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Wink&eyebrowType=Default&mouthType=Tongue&skinColor=Light"
+            />
+            <div class="description">
+              <h3>Raya Allawy</h3>
+              <a href="https://github.com/rallawy" target="_blank"
+                ><i class="fa fa-github" style="font-size:36px"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/r-a-4abb851b5/"
+                target="_blank"
+                ><i class="fa fa-linkedin-square" style="font-size:36px"></i
+              ></a>
+              <button onclick="showHide('raya_playlist')" class="play">
+                <i class="fa fa-spotify" style="font-size:36px"></i>
+              </button>
+              <iframe
+                id="raya_playlist"
+                src="https://open.spotify.com/embed/playlist/26igwsLnx3TcailIQUZBhl?utm_source=generator"
+                width="100%"
+                height="380"
+                frameBorder="0"
+                allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              >hello</iframe>
+            </div>
+          </div>
+          <div class="person">
+            <img
+              src="https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortRound&accessoriesType=Prescription02&hairColor=BlondeGolden&facialHairType=BeardLight&facialHairColor=BlondeGolden&clotheType=CollarSweater&clotheColor=Blue03&eyeType=Squint&eyebrowType=RaisedExcitedNatural&mouthType=Eating&skinColor=Pale"
+            />
+            <div class="description">
+              <h3>Thomas Hoekstra</h3>
+              <a href="https://github.com/Rohrym" target="_blank"
+                ><i class="fa fa-github" style="font-size:36px"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/thomashoekstra2310/"
+                target="_blank"
+                ><i class="fa fa-linkedin-square" style="font-size:36px"></i
+              ></a>
+              <button onclick="showHide('thomas_playlist')" class="play">
+                <i class="fa fa-spotify" style="font-size:36px"></i>
+              </button>
+              <iframe
+                id="thomas_playlist"
+                src="https://open.spotify.com/embed/playlist/5FMteVhHLhSES8vj1PWSHX?utm_source=generator&theme=0"
+                width="100%"
+                height="380"
+                frameBorder="0"
+                allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              ></iframe>
+            </div>
+          </div>
+
+          <div class="person">
+            <img
+              src="https://avataaars.io/?avatarStyle=Transparent&topType=LongHairStraight&accessoriesType=Blank&hairColor=Auburn&facialHairType=Blank&clotheType=GraphicShirt&clotheColor=Black&graphicType=Cumbia&eyeType=Side&eyebrowType=Default&mouthType=Concerned&skinColor=Pale"
+            />
+            <div class="description">
+              <h3>Nika Vidic</h3>
+              
+              <a href="https://github.com/NikVid" target="_blank"
+                ><i class="fa fa-github" style="font-size:36px"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/nika-vidic"
+                target="_blank"
+                ><i class="fa fa-linkedin-square" style="font-size:36px"></i
+              ></a>
+              <button onclick="showHide('nika_playlist')" class="play">
+                <i class="fa fa-spotify" style="font-size:36px"></i>
+              </button>
+              <iframe
+                id="nika_playlist"
+                src="https://open.spotify.com/embed/playlist/6O33WWFX4fAWSnXv1dkkMW?utm_source=generator&theme=0"
+                width="100%"
+                height="380"
+                frameBorder="0"
+                allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              ></iframe>
+            </div>
+          </div>
+          <div class="person">
+            <img
+              src="https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Brown&facialHairType=Blank&clotheType=Hoodie&clotheColor=Black&eyeType=Wink&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Pale"
+            />
+            <div class="description">
+              <h3>Jan-Tieme Bakema</h3>
+              
+              <a href="https://github.com/juantieme" target="_blank"
+                ><i class="fa fa-github" style="font-size:36px"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/jan-tieme-bakema/"
+                target="_blank"
+                ><i class="fa fa-linkedin-square" style="font-size:36px"></i
+              ></a>
+              <button onclick="showHide('jt_playlist')" class="play">
+                <i class="fa fa-spotify" style="font-size:36px"></i>
+              </button>
+              <iframe
+                id="jt_playlist"
+                src="https://open.spotify.com/embed/playlist/2aTT8t6Wk4SBBlyHdeQDoj?utm_source=generator&theme=0"
+                width="100%"
+                height="380"
+                frameBorder="0"
+                allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
