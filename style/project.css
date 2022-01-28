@@ -1,0 +1,119 @@
+body{
+    
+    color: rgb(20, 33, 61);
+}
+.content_heading_wrapper{
+    margin: 0 auto;
+    max-width: 40em;
+    text-align: center;
+    padding: 0 0 2em 0;
+}
+.content_heading{
+    font-size: 80px;
+    margin: 0.55em 0;
+    padding: 0 1em;
+    line-height: 1.25;
+}
+
+.content_heading_par{
+    font-size: 22.5px;
+    line-height: 2;
+    font-family: 'Roboto', sans-serif;
+    max-width: 30em;
+    margin: 0 auto;
+    padding: 1em 1em;
+}
+
+.content_text_wrapper{
+    
+    display: flex;
+    flex-direction: column;
+    max-width: 40em;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.content{
+    width: var(--col-width);
+    max-width: var(--col-width);
+    width: 100%;
+    padding: 1.5em 1em;
+    margin: 0 auto;
+    line-height: 2;
+    opacity: 1;
+    font-size: 25px;
+}
+h1{
+    font-family: 'Libre Baskerville', serif;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+   
+}
+.content_heading_par a {
+    text-decoration: none;
+    color: black;
+    background: linear-gradient(#FCA311, #FCA311);
+    background-size: 100% 100%;
+    
+    background-position: 0 90%;
+    background-repeat: no-repeat;
+    transition: all .1s ease-in ;
+    padding: 0 0.05em;
+}
+.content_heading_par a:hover, a:focus {
+    background-size: 100% 0.1em;
+    outline: none;
+}
+.content a {
+    text-decoration: none;
+    color: black;
+    background: linear-gradient(#FCA311, #FCA311);
+    background-size: 100% 100%;
+    
+    background-position: 0 90%;
+    background-repeat: no-repeat;
+    transition: all .1s ease-in ;
+    padding: 0 0.05em;
+}
+.content a:hover, a:focus {
+    background-size: 100% 0.1em;
+    outline: none;
+}
+span{
+    color: #FCA311;
+    }
+.background_wrapper{
+    overflow: hidden;
+  position: relative;
+}
+.background{
+    opacity: 0.1;
+  position: absolute;
+  left: 50px;
+  top: 700px;
+  width: 27%;
+  height: auto;
+}
+.background_second{
+    opacity: 0.1;
+  position: absolute;
+  left: 1200px;
+  top: 80px;
+  width: 23%;
+  height: auto;
+}
+.background_third{
+    opacity: 0.1;
+  position: absolute;
+  left: 1180px;
+  top: 1450px;
+  width: 28%;
+  height: auto;
+}
+
+    @media only screen and (max-width: 992px){
+        .content_heading{
+            font-size: 50px;
+        }
+    }

@@ -1,0 +1,90 @@
+.main-section{
+    padding: 3.75rem 24px 0;
+    color: rgb(20, 33, 61);
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.title h1{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 70px;
+    letter-spacing: -.7px;
+    margin-bottom: 20px;
+    line-height: 1.1;
+}
+.team-wrapper{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto 4.25rem;
+    gap: 15px;
+}
+
+.person{
+   
+    margin: 10px;  
+}
+.description{
+    text-align: center;
+    margin-top: 12px;
+}
+.description h3{
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(20, 33, 61);
+    font-size: 22.5px;
+}
+small{
+    
+    color:rgb(252, 163, 17) ;
+}
+s{
+    color: black;
+}
+a{
+    color: black;
+   
+}
+a:hover{
+    color: black;
+   
+}
+i{  
+    margin: 7px;
+    transition: all .2s ease-in-out;
+}
+i:hover{
+    transform: scale(1.3);
+}
+iframe{
+    display:none;
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+body{
+   background-color:white;
+   
+}
+.title_par{
+    color:rgb(20, 33, 61);
+    font-size: 25px;
+    line-height: 2;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*media breakpoints*/
+@media only screen and (max-width: 1300px) {
+    .team-wrapper {
+        flex-wrap: wrap;    
+    }
+  } 
+
+  
