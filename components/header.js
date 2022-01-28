@@ -74,7 +74,7 @@ class Header extends HTMLElement {
   <div class="container-fluid">
   <div class="navv container-fluid">
   <a class="navbar-brand" href="index.html">
-    <img src="../media/ESC_generic_logo/PNG/Eurovision_generic_white.png" alt=""  class="logo d-inline-block align-text-top">
+    <img src="media/ESC_generic_logo/PNG/Eurovision_generic_white.png" alt=""  class="logo d-inline-block align-text-top">
   </a>
   
 </div>
